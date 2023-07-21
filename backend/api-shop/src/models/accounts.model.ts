@@ -47,6 +47,13 @@ export class Accounts extends Entity {
   password: string;
 
   @property({
+    type: 'string',
+    hidden: true,
+    default: 'user',
+  })
+  role: string;
+
+  @property({
     type: 'date',
     default: new Date(),
   })

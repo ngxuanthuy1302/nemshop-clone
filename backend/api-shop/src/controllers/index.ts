@@ -8,3 +8,5 @@ export * from './size.controller';
 
 export * from './products-categories.controller';
 export * from './products-collection.controller';
+export * from './categories-products.controller';
+export * from './collection-products.controller';

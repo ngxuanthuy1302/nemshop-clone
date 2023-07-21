@@ -41,6 +41,12 @@ export class Products extends Entity {
   size: string[];
 
   @property({
+    type: 'string',
+    required: true,
+  })
+  path: string;
+
+  @property({
     type: 'date',
     default: new Date(),
   })
